@@ -1,6 +1,10 @@
 #!/bin/bash
-#
-# Description: Minecraft Music Extractor
+# CHANGE ME TO DOS BATCH PROGRAMMING
+# Description: Extracts the sounds from a specific Minecraft version, and exports to a folder (this will change)
+
+# INSERT PROGRAM ECHO HERE
+
+# INCLUDE CHECK FOR PYTHON HERE
 
 echo -e "Enter your Windows username:"
 read winusername
