@@ -4,4 +4,4 @@ Just a conversion of the https://minecraft.gamepedia.com/Tutorials/Sound_directo
 
 Changes coming soon:
   - The Windows WSL version will be replaced with a DOS batch file
-  - Going to merge the Mac and Linux script together so it can run on either system
+  - Going to merge the [Mac](https://minecraft.gamepedia.com/Tutorials/Sound_directory#Extracting_Minecraft_Music_On_Mac) and Linux script together so it can run on either system
