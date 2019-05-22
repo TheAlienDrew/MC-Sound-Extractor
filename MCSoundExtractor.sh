@@ -1,6 +1,10 @@
 #!/bin/bash
 #
-# Description: Minecraft Music Extractor
+# Description: Extracts the sounds from a specific Minecraft version, and exports to a folder (this will change)
+
+# INSERT PROGRAM ECHO HERE
+
+# INCLUDE CHECK FOR PYTHON HERE
 
 USER_DIR=$(echo ~ | grep "/")
 MINECRAFT_ASSETS_DIR="$USER_DIR/.minecraft/assets"
@@ -22,7 +26,6 @@ fi
 #for ENTRY in `cat "$JSON_FILE" | python -c 'import sys,json; from pprint import pprint; data = json.load(sys.stdin); pprint(data);' | grep music | awk -F\' '{print $2 "," $6}'`
 #cat "$JSON_FILE" | python -c 'import sys,json; from pprint import pprint; data = json.load(sys.stdin); pprint(data);'
 #cat "$JSON_FILE" | python -c 'import sys,json; from pprint import pprint; data = json.load(sys.stdin); pprint(data);' | grep music
-
 
 for ENTRY in `cat "$JSON_FILE" | python -c 'import sys,json; from pprint import pprint; data = json.load(sys.stdin); pprint(data);' | grep sounds | awk -F\' '{print $2 "," $6}'`
 do
